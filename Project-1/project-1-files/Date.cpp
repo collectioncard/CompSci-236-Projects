@@ -95,7 +95,7 @@ void Date::setMonth( string newMonth) {
     //nevermind... that looks complicated and I dont think we have learned that yet. (This is why C++ isnt my main language)
 
 
-    //TODO This is broken and I have litteraly no idea why. ugghghghghghghgygghghghghghghghghghgyghghghghghghghghghghh
+    //TODO This is broken and I have literally no idea why. ugghghghghghghgygghghghghghghghghghgyghghghghghghghghghghh
     //I'm just gonna call generate month int and see if it can find the correct value
     int isValid = generateMonthInt(newMonth);
     if(isValid == -1){
