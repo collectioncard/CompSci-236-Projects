@@ -6,31 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.cpp
-Beer.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
-string
--
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.cpp
+/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp
 iostream
 -
 Date.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
+/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
 
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
+/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
 string
 -
 map
 -
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/main.cpp
-iostream
--
-Beer.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
-Date.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
 

@@ -2,21 +2,21 @@
 // Created by Thomas Wessel on 5/22/20.
 //
 
+#include <iostream>
 #include "Beer.h"
 using namespace std;
 
 
 Beer::Beer(){
     setBeerType("unknown beer type");
-    setLitersRemaining(0.0);
     setGlassSize(20.0);
-
+    setLitersRemaining(0.0);
 }
 
 Beer::Beer(string beerType, double litersRemaining, double glassSize){
     setBeerType(beerType);
-    setLitersRemaining(litersRemaining);
     setGlassSize(glassSize);
+    setLitersRemaining(litersRemaining);
 }
 
 
@@ -36,11 +36,23 @@ void Beer::setBeerType(string newType){
     beerType = newType;
 }
 void Beer::setLitersRemaining(double newAmount){
-    litersRemaining = newAmount;
+    //if(0 < tempDate && tempDate < 13){
+    if(0 <= newAmount && newAmount <= glassSize){
+        litersRemaining = newAmount;
+    }else{
+        cout << "Invalid fill amount; defaulting to full" << endl;
+        litersRemaining = glassSize;
+    }
 }
 
 void Beer::setGlassSize(double newGlassSize){
-    glassSize = newGlassSize;
+    //make sure that the glass size is > 0
+    if(glassSize <= 0){
+        cout << "Impossible glass size! defaulting to 100 liters" << endl;
+        glassSize = 100;
+    }else{
+        glassSize = newGlassSize;
+    }
 }
 
 

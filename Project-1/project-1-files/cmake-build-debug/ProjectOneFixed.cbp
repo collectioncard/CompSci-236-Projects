@@ -8,96 +8,94 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug"/>
+				<Option working_dir="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug"/>
+				<Option working_dir="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug"/>
+				<Option working_dir="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectOneFixed">
-				<Option output="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/ProjectOneFixed" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug"/>
+				<Option output="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/ProjectOneFixed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectOneFixed"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectOneFixed"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectOneFixed/fast">
-				<Option output="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/ProjectOneFixed" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug"/>
+				<Option output="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/ProjectOneFixed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectOneFixed/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/The\ Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectOneFixed/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.cpp">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp">
 			<Option target="ProjectOneFixed"/>
 		</Unit>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.h">
 			<Option target="ProjectOneFixed"/>
 		</Unit>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.cpp">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp">
 			<Option target="ProjectOneFixed"/>
 		</Unit>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h">
 			<Option target="ProjectOneFixed"/>
 		</Unit>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/main.cpp">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp">
 			<Option target="ProjectOneFixed"/>
 		</Unit>
-		<Unit filename="/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/CMakeLists.txt">
+		<Unit filename="/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

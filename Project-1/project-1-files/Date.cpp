@@ -7,23 +7,6 @@
 
 using namespace std;
 
-int Date::generateMonthInt(string month){
-    int tempDate = -1;
-
-    //maps are weird in c++, map.find returns an iterator type - we want the second item in the list, so we call -> second
-    tempDate = monthNumbers.find(month)->second;
-    if(0 < tempDate && tempDate < 13){
-        return tempDate;
-    }else{
-        return -1;
-    }
-
-
-
-}
-
-
-
 //begin constructors
 Date::Date(){
     setYear(1970);
@@ -38,6 +21,18 @@ Date::Date(int year, string month, int day){
 }
 
 //end constructors
+
+int Date::generateMonthInt(string month){
+    int tempDate = -1;
+
+    //maps are weird in c++, map.find returns an iterator type - we want the second item in the list, so we call -> second
+    tempDate = monthNumbers.find(month)->second;
+    if(0 < tempDate && tempDate < 13){
+        return tempDate;
+    }else{
+        return -1;
+    }
+}
 
 //prints requested date format - none of them are 8601 :(
 /*Also, this function seems weird to me. Why are we printing something from an adt and does this replace the tostring
@@ -63,7 +58,6 @@ void Date::printDate(int format){
     }
 }
 
-
 //getters and setters
 int Date::getDay(){
     return day;
@@ -73,7 +67,8 @@ void Date::setDay(int newDay) {
     if(0<newDay && newDay<32){
         day = newDay;
     } else{
-        cout << "Invalid day number";
+        cout << "Invalid day number; defaulting to 1\n";
+        day = 1;
     }
 }
 
@@ -85,7 +80,8 @@ void Date::setYear(int newYear) {
     if(1969<newYear && newYear<3000){
         year = newYear;
     } else{
-        cout << "Invalid year number";
+        cout << "Invalid year number; defaulting to 1969\n";
+        year = 1969;
     }
 }
 
@@ -99,14 +95,15 @@ void Date::setMonth( string newMonth) {
     //nevermind... that looks complicated and I dont think we have learned that yet. (This is why C++ isnt my main language)
 
 
+    //TODO This is broken and I have litteraly no idea why. ugghghghghghghgygghghghghghghghghghgyghghghghghghghghghghh
     //I'm just gonna call generate month int and see if it can find the correct value
     int isValid = generateMonthInt(newMonth);
     if(isValid == -1){
-        month = "error";
-        cout << "invalid month\n";
+        month = "Jan";
+        cout << "invalid month; defaulting to January\n";
+
     }else{
         month = newMonth;
-
     }
 }
 

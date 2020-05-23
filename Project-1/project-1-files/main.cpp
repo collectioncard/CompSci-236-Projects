@@ -12,12 +12,17 @@ void beerSubMenu(){
     cout << beerNoArg.toString()<<endl;
 
     cout << "\nTesting other constructor" << endl;
-    Beer beer("budweiser",  20.0,  30.0);
-    cout << beer.toString() << "\n";
-
-    cout << "Press enter to continue";
-    cin >> temp;
-
+    cout << "What type of beer would you like to drink?\n>";
+    string beerName;
+    cin >> beerName;
+    cout << "What glass size would you like for your beer? (in Liters)\n>";
+    double glassSize;
+    cin >> glassSize;
+    cout << "How full would you like the glass? Chose a value between 0 and " << glassSize << "\n>";
+    double fillAmnt;
+    cin >>fillAmnt;
+    Beer beer(beerName, fillAmnt, glassSize);
+    cout << beer.toString() << "\n\n\n";
 }
 
 void dateSubMenu(){
@@ -33,15 +38,21 @@ void dateSubMenu(){
 
     cout << "\n\nTesting 'normal' constructor\n";
 
-    Date date(2000, "Feb", 29);
+    cout << "Please enter a year.\n>";
+    int year;
+    cin >> year;
+    cout << "Please enter a month.\n>";
+    string month;
+    cin >> month;
+    cout << "Please enter a day.\n>";
+    int day;
+    cin >> day;
+
+    Date date(year, month, day);
     date.printDate(0);
     date.printDate(1);
     date.printDate(2);
     date.printDate(3);
-
-    cout << "Press enter to continue";
-    cin >> temp;
-
 }
 
 int main() {

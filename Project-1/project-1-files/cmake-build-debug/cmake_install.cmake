@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed
+# Install script for directory: /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
