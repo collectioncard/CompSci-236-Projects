@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.cpp
+Beer.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
+string
+-
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.cpp
+iostream
+-
+Date.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
+string
+-
+map
+-
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/main.cpp
+iostream
+-
+Beer.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Beer.h
+Date.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/ProjectOneFixed/Date.h
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
+string
+-
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Checking.h
+Account.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/CreditCard.h
+Account.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Savings.h
+Account.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
+
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/main.cpp
+iostream
+-
+Checking.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Checking.h
+CreditCard.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/CreditCard.h
+Savings.h
+/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Savings.h
+
