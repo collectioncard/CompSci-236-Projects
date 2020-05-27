@@ -17,8 +17,7 @@ private:
     std::string month;
 
     //used for month validation and easy conversion between month name and number
-    std::map<std::string, int> monthNumbers{
-            {"Jan", 1},
+    const std::map<std::string, int> monthNumbers{
             {"Jan", 1},
             {"Feb", 2},
             {"Mar", 3},

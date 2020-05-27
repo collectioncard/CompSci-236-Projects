@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp
-iostream
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.h
+string
 -
-Date.h
-/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
 
-/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
 string
 -
 map
 -
+
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp
+iostream
+-
+Beer.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.h
+Date.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.h
 

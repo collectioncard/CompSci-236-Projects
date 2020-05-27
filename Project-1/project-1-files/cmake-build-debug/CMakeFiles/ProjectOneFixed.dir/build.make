@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Volumes/The Hoarder/Home/thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Volumes/The Hoarder/Home/thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files
+CMAKE_SOURCE_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug
+CMAKE_BINARY_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectOneFixed.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/ProjectOneFixed.dir/flags.make
 
 CMakeFiles/ProjectOneFixed.dir/main.cpp.o: CMakeFiles/ProjectOneFixed.dir/flags.make
 CMakeFiles/ProjectOneFixed.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectOneFixed.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/main.cpp.o -c /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectOneFixed.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/main.cpp.o -c "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp"
 
 CMakeFiles/ProjectOneFixed.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOneFixed.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp > CMakeFiles/ProjectOneFixed.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp" > CMakeFiles/ProjectOneFixed.dir/main.cpp.i
 
 CMakeFiles/ProjectOneFixed.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOneFixed.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp -o CMakeFiles/ProjectOneFixed.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/main.cpp" -o CMakeFiles/ProjectOneFixed.dir/main.cpp.s
 
 CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o: CMakeFiles/ProjectOneFixed.dir/flags.make
 CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o: ../Beer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o -c /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o -c "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp"
 
 CMakeFiles/ProjectOneFixed.dir/Beer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOneFixed.dir/Beer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp > CMakeFiles/ProjectOneFixed.dir/Beer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp" > CMakeFiles/ProjectOneFixed.dir/Beer.cpp.i
 
 CMakeFiles/ProjectOneFixed.dir/Beer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOneFixed.dir/Beer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp -o CMakeFiles/ProjectOneFixed.dir/Beer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Beer.cpp" -o CMakeFiles/ProjectOneFixed.dir/Beer.cpp.s
 
 CMakeFiles/ProjectOneFixed.dir/Date.cpp.o: CMakeFiles/ProjectOneFixed.dir/flags.make
 CMakeFiles/ProjectOneFixed.dir/Date.cpp.o: ../Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectOneFixed.dir/Date.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/Date.cpp.o -c /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectOneFixed.dir/Date.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOneFixed.dir/Date.cpp.o -c "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp"
 
 CMakeFiles/ProjectOneFixed.dir/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOneFixed.dir/Date.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp > CMakeFiles/ProjectOneFixed.dir/Date.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp" > CMakeFiles/ProjectOneFixed.dir/Date.cpp.i
 
 CMakeFiles/ProjectOneFixed.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOneFixed.dir/Date.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp -o CMakeFiles/ProjectOneFixed.dir/Date.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/Date.cpp" -o CMakeFiles/ProjectOneFixed.dir/Date.cpp.s
 
 # Object files for target ProjectOneFixed
 ProjectOneFixed_OBJECTS = \
@@ -110,7 +110,7 @@ ProjectOneFixed: CMakeFiles/ProjectOneFixed.dir/Beer.cpp.o
 ProjectOneFixed: CMakeFiles/ProjectOneFixed.dir/Date.cpp.o
 ProjectOneFixed: CMakeFiles/ProjectOneFixed.dir/build.make
 ProjectOneFixed: CMakeFiles/ProjectOneFixed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProjectOneFixed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProjectOneFixed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjectOneFixed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/ProjectOneFixed.dir/clean:
 .PHONY : CMakeFiles/ProjectOneFixed.dir/clean
 
 CMakeFiles/ProjectOneFixed.dir/depend:
-	cd /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug /Users/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles/ProjectOneFixed.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-1/project-1-files/cmake-build-debug/CMakeFiles/ProjectOneFixed.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectOneFixed.dir/depend
 

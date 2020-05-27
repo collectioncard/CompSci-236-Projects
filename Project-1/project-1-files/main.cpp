@@ -14,7 +14,9 @@ void beerSubMenu(){
     cout << "\nTesting other constructor" << endl;
     cout << "What type of beer would you like to drink?\n>";
     string beerName;
-    cin >> beerName;
+    cin.ignore();
+    getline(cin, beerName);
+
     cout << "What glass size would you like for your beer? (in Liters)\n>";
     double glassSize;
     cin >> glassSize;
@@ -29,7 +31,7 @@ void dateSubMenu(){
     //create temp var so we can pause. Not sure if there is a better way to do this...
     string temp;
     //testing no-arg
-    cout << "Testing no-arg constructor\n";
+    cout << "\n\nTesting no-arg constructor\n";
     Date dateNoArg;
     dateNoArg.printDate(0);
     dateNoArg.printDate(1);
@@ -53,6 +55,7 @@ void dateSubMenu(){
     date.printDate(1);
     date.printDate(2);
     date.printDate(3);
+    cout << "\n\n";
 }
 
 int main() {
