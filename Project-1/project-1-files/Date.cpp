@@ -31,10 +31,6 @@ int Date::generateMonthInt(string month){
     }
 }
 
-//prints requested date format - none of them are 8601 :(
-/*Also, this function seems weird to me. Why are we printing something from an adt and does this replace the tostring
- * method? I this seems to be... off.
- */
 void Date::printDate(int format){
     switch(format){
         case 0:
@@ -90,8 +86,6 @@ void Date::setMonth( string newMonth) {
     //It is possible that the user could enter a month in different cases. The spec shows them in lowercase so ill change the string
 
     //nevermind... that looks complicated and I dont think we have learned that yet. (This is why C++ isnt my main language)
-
-
 
     //I'm just gonna call generate month int and see if it can find the correct value
     int isValid = generateMonthInt(newMonth);

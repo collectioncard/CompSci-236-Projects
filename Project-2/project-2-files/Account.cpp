@@ -22,19 +22,19 @@ balance = newBalance;
 }
 
 //These three methods are the exact same, but deal with different data types. Generics might help, but im lazy
-void Account::fixArraysEvenThoughAQueueWouldBeBetterAndThisIsMyWayOfComplaining(int newVal, int arrayToFix[]) {
+void Account::fixArrays(int newVal, int *arrayToFix) {
     for(int i = 9; i > 0; i--){
         arrayToFix[i] = arrayToFix[i-1];
     }
     arrayToFix[0] = newVal;
 }
-void Account::fixArraysEvenThoughAQueueWouldBeBetterAndThisIsMyWayOfComplaining(double newVal, double arrayToFix[]) {
+void Account::fixArrays(double newVal, double *arrayToFix) {
     for(int i = 9; i > 0; i--){
         arrayToFix[i] = arrayToFix[i-1];
     }
     arrayToFix[0] = newVal;
 }
-void Account::fixArraysEvenThoughAQueueWouldBeBetterAndThisIsMyWayOfComplaining(std::string newVal, std::string arrayToFix[]) {
+void Account::fixArrays(std::string newVal, string *arrayToFix) {
     for(int i = 9; i > 0; i--){
         arrayToFix[i] = arrayToFix[i-1];
     }
@@ -67,8 +67,14 @@ double Account::getBalance(){
 }
 
 void Account::makeDeposit(double amount){
-    balance+=amount;
-    fixArraysEvenThoughAQueueWouldBeBetterAndThisIsMyWayOfComplaining(amount, last10Deposits);
+    if(amount > 0){
+        balance+=amount;
+        fixArrays(amount, last10Deposits);
+        numDeposits++;
+    }else{
+        cout << "Invalid deposit amount";
+    }
+
 }
 
 void  Account::display(){

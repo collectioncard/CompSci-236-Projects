@@ -25,9 +25,10 @@ int main(int argc, const char * argv[]) {
 
 
     //Gather the User's info
-    cout<< "Please Enter your name:";
-    cin >> userName;
-    cout << "\nPlease Enter your Tax ID number:";
+    cout<< "Please Enter your name: ";
+    cin.ignore();
+    getline(cin, userName);
+    cout << "\nPlease Enter your Tax ID number: ";
     cin >> taxID;
     cout << "\n\n";
 
@@ -41,8 +42,9 @@ int main(int argc, const char * argv[]) {
     bool loop = true;
     int selection = -1;
 
+
     do{
-        cout << "Checking Balance: $" << checking.getBalance() << "     Savings Balance: $" << savings.getBalance() << "    Credit Card Balance: $ " << creditCard.getBalance() << endl;
+        cout << "Checking Balance: $" << checking.getBalance() << "     Savings Balance: $" << savings.getBalance() << "    Credit Card Balance: $" << creditCard.getBalance() << "\n\n";
         cout << "1. Savings Deposit\n" <<
              "2. Savings Withdrawal\n" <<
              "3. Checking Deposit\n" <<
@@ -90,7 +92,8 @@ int main(int argc, const char * argv[]) {
                 cout << "How much would you like to charge\n>";
                 cin >> amnt;
                 cout << "What is the name of the transaction\n>";
-                cin >> chargeName;
+                cin.ignore();
+                getline(cin, chargeName);
                 creditCard.DoCharge(chargeName,amnt);
                 break;
             case 7:

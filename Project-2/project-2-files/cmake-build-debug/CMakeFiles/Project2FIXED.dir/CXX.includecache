@@ -6,29 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/Account.h
 string
 -
 
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Checking.h
-Account.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/CreditCard.h
-Account.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Savings.h
-Account.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.h
-
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/main.cpp
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/CreditCard.cpp
 iostream
 -
-Checking.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Checking.h
 CreditCard.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/CreditCard.h
-Savings.h
-/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Savings.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/CreditCard.h
+
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/CreditCard.h
+Account.h
+/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/Account.h
 

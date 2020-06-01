@@ -47,7 +47,7 @@ void Beer::setLitersRemaining(double newAmount){
 
 void Beer::setGlassSize(double newGlassSize){
     //make sure that the glass size is > 0
-    if(glassSize <= 0){
+    if(newGlassSize <= 0.0){
         cout << "Impossible glass size! defaulting to 100 liters" << endl;
         glassSize = 100;
     }else{

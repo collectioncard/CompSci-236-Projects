@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Account.cpp" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Account.cpp.o"
-  "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Checking.cpp" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Checking.cpp.o"
-  "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/CreditCard.cpp" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/Project2FIXED.dir/CreditCard.cpp.o"
-  "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/Savings.cpp" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Savings.cpp.o"
-  "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/main.cpp" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/Project2FIXED.dir/main.cpp.o"
+  "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/Account.cpp" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Account.cpp.o"
+  "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/Checking.cpp" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Checking.cpp.o"
+  "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/CreditCard.cpp" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/Project2FIXED.dir/CreditCard.cpp.o"
+  "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/Savings.cpp" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/Project2FIXED.dir/Savings.cpp.o"
+  "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/main.cpp" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/Project2FIXED.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

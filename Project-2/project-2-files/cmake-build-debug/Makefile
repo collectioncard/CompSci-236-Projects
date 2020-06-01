@@ -48,10 +48,10 @@ RM = "/Volumes/The Hoarder/Home/thomas/Library/Application Support/JetBrains/Too
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED"
+CMAKE_SOURCE_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles" "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles" "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

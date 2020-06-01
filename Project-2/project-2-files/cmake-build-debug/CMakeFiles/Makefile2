@@ -44,10 +44,10 @@ RM = "/Volumes/The Hoarder/Home/thomas/Library/Application Support/JetBrains/Too
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED"
+CMAKE_SOURCE_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/Project2FIXED.dir/clean
 CMakeFiles/Project2FIXED.dir/all:
 	$(MAKE) -f CMakeFiles/Project2FIXED.dir/build.make CMakeFiles/Project2FIXED.dir/depend
 	$(MAKE) -f CMakeFiles/Project2FIXED.dir/build.make CMakeFiles/Project2FIXED.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target Project2FIXED"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target Project2FIXED"
 .PHONY : CMakeFiles/Project2FIXED.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project2FIXED.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Project2FIXED.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/CLionProjects/Project2FIXED/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/The Hoarder/Home/thomas/Documents/GitHub/CompSci-236-Projects/Project-2/project-2-files/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Project2FIXED.dir/rule
 
 # Convenience name for target.
