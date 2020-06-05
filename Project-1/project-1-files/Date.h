@@ -48,6 +48,9 @@ public:
      */
     void printDate(int format);
 
+    //override that returns a default string
+    std::string toString();
+    std::string toString(int format);
 
     //getters and setters
     int getDay();

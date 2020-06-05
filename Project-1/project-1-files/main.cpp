@@ -43,7 +43,7 @@ void dateSubMenu(){
     cout << "Please enter a year.\n>";
     int year;
     cin >> year;
-    cout << "Please enter a month.\n>";
+    cout << "Please enter a month. (uppercase three letter name please. EX: \"Feb\"\n>";
     string month;
     cin >> month;
     cout << "Please enter a day.\n>";

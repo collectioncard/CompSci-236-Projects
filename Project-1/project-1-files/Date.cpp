@@ -32,21 +32,29 @@ int Date::generateMonthInt(string month){
 }
 
 void Date::printDate(int format){
+    cout << toString(format);
+}
+
+string Date::toString() {
+    return month + " " + toString(day) + ", " + toString(year) + "\n";
+}
+
+string Date::toString(int format){
     switch(format){
         case 0:
-            cout << month << " " << day << ", " << year << endl;
+            return month + " " + to_string(day) + ", " + to_string(year) + "\n";
             break;
         case 1:
-            cout << day << " " << month << " " << year << endl;;
+            return to_string(day) + " " + month + " " + to_string(year) + "\n";
             break;
         case 2:
-            cout << generateMonthInt(month) << "-" << day << "-" << year << endl;;
+            return month + "-" + to_string(day) + "-" + to_string(year) + "\n";
             break;
         case 3:
-            cout << generateMonthInt(month) << "/" << day << "/" << year << endl;;
+            return to_string(generateMonthInt(month)) + "/" + to_string(day) + "/" + to_string(year) + "\n";
             break;
         default:
-            cout << "invalid format!";
+            return "invalid format!";
             break;
     }
 }
@@ -97,4 +105,5 @@ void Date::setMonth( string newMonth) {
         month = newMonth;
     }
 }
+
 
